@@ -1,0 +1,45 @@
+.ge {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.geItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.geImg {
+  width: 100%;
+  flex: 1;
+}
+
+.geRating > button {
+  background-color: #003580;
+  color: white;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.geName {
+  font-weight: bold;
+}
+
+.geCity {
+  font-weight: 300;
+}
+
+.gePrice {
+  font-weight: 500;
+}
+
+.geRating > span {
+  font-size: 14px;
+}
